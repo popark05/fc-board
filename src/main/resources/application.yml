@@ -1,9 +1,12 @@
 
 spring:
    datasource:
-      url: jdbc:mysql://localhost:55001/fcboard?useSSL=false&serverTimezone=Asia/Seoul
-      username: root
-      password: 1234
+#      url: jdbc:mysql://localhost:55001/fcboard?useSSL=false&serverTimezone=Asia/Seoul
+#      username: root
+#      password: 1234
+      url: jdbc:mysql://awseb-e-gzipjmr3h3-stack-awsebrdsdatabase-fplycc4dxpl7.chym4k4ai3az.ap-northeast-2.rds.amazonaws.com
+      username: fastcam
+      password: Koreacom05051!
       driver-class-name: com.mysql.cj.jdbc.Driver
    jpa:
       hibernate:
