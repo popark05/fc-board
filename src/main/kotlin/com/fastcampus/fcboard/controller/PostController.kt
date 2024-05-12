@@ -1,6 +1,11 @@
 package com.fastcampus.fcboard.controller
 
-import com.fastcampus.fcboard.controller.dto.*
+import com.fastcampus.fcboard.controller.dto.PostCreateRequest
+import com.fastcampus.fcboard.controller.dto.PostDetailResponse
+import com.fastcampus.fcboard.controller.dto.PostSearchRequest
+import com.fastcampus.fcboard.controller.dto.PostUpdateRequest
+import com.fastcampus.fcboard.controller.dto.PostSummaryResponse
+
 import org.springdoc.core.parsers.ReturnTypeParser
 import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.data.domain.Page
